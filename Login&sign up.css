@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Dancing Script' , cursive;
+ 
+    
+}
+
+.main
+{
+    width: 400px;
+    height: 480px;
+    background: rgb(190, 83, 101);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 5px 30px 50px rgb(99, 94, 94);
+}
+#chk
+{
+    display: none;
+}
+.signup
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+label
+{
+    color: white;
+    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-bottom: 10px;
+}
+input
+{
+    width: 60%;
+    height: 35px;
+    background: white;
+    justify-content: center;
+    display: flex;
+    margin: 18px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+button
+{
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: white;
+    background: rgb(202, 114, 129);
+    font-size: 20px;
+    margin-top: 18px;
+    font-family: 'Dancing Script' , cursive;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    box-shadow: 3px 4px 8px rgb(226, 205, 205);
+}
+button:hover
+{
+    background: rgb(117, 70, 78);
+}
+.login
+{
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+    transform: translateY(-180px);
+    transition: 0.8s ease-in-out;
+}
+.login label
+{
+    color: rgb(190, 83, 101);
+    transform: scale(0.6);
+}
+
+#chk:checked ~ .login
+{
+    transform: translateY(-500px);
+}
+#chk:checked ~ .login label
+{
+    transform: scale(1);
+}
+#chk:checked ~ .signup label
+{
+    transform: scale(0.6);
+}

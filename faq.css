@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 800px;
+    margin: 20px auto;
+    font-style: italic;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+   color: rgb(48, 43, 44);;
+}
+.faq {
+    margin-bottom: 20px;
+}
+.faq button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(190, 83, 101);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.faq button:hover {
+    background-color: rgb(48, 43, 44);
+    color: rgb(190, 83, 101);;
+}
+.faq-content {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background-color: #f1f1f1;
+    
+}

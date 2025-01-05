@@ -1,0 +1,14 @@
+*{margin: 0px;
+padding: 0px;
+border: none;
+outline: none;}
+.icon{
+    padding: 10px;
+    margin-right: 50px;
+    width:60px;
+     height: 60px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 2px;
+    border: solid 2px rgb(190, 83, 101);
+    float: right;
+}
